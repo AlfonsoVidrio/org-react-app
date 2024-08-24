@@ -4,6 +4,47 @@
     box-sizing: border-box;
     text-align: center;
     font-size: 2rem;
+    position: relative;
+}
+
+.input-color {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.input-color {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+/* Estilos específicos para el input de tipo color */
+input[type="color"] {
+    vertical-align: bottom;
+    border: solid white 3px;
+    border-radius: 2px;
+    padding: 0;
+    height: 40px;
+    width: 5%;
+    cursor: pointer;
+}
+
+/* Estilos específicos para navegadores WebKit */
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 2px;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: 0;
+    border-radius: 2px;
+}
+
+/* Estilos específicos para navegadores Mozilla */
+input[type="color"]::-moz-color-swatch {
+    border: 0;
+    border-radius: 2px; 
 }
 
 .team h3 {

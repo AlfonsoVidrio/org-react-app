@@ -1,6 +1,7 @@
 .collaborator {
     width: 280px;
     margin-bottom: 24px;
+    position: relative;
 }
 
 .collaborator .header {
@@ -40,4 +41,10 @@
     padding: 0 24px;
     font-weight: 400;
     margin: 0;
+}
+
+.remove {
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }

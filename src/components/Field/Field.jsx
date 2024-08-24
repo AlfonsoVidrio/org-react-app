@@ -1,17 +1,17 @@
-import './TextField.css';
+import './Field.css';
 
 /* eslint-disable react/prop-types */
-export const TextField = ({title, placeholder, required, value, setValue}) => {
+export const Field = ({title, placeholder, required, value, setValue, typeInput = 'text'}) => {
 
     const handleInputChange = ( event ) => {
         setValue(event.target.value)
     }
 
     return (
-        <div className='text-field'>
+        <div className='field'>
             <label>{title}</label>
             <input 
-                type="text" 
+                type={typeInput} 
                 placeholder={`${placeholder}...`} 
                 value={value} 
                 required={required}

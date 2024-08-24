@@ -1,9 +1,9 @@
-.text-field {
+.field {
     font-family: "Montserrat", sans-serif;
     margin: 24px 0;
 }
 
-.text-field label {
+.field label {
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
@@ -11,7 +11,7 @@
     margin-bottom: 8px;
 }
 
-.text-field input {
+.field input {
     background: #FFFFFF;
     border: none;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
@@ -21,3 +21,15 @@
     width: 100%;
     box-sizing: border-box;
 }
+
+/* Estilos específicos para el input de tipo color */
+.field input[type="color"] {
+    vertical-align: bottom;
+    border: solid #1f1f1f 1px;
+    border-radius: 8px;
+    padding: 0;
+    height: 50px;
+    width: 40%;
+    cursor: pointer;
+}
+
